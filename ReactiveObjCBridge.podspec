@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source_files = "ReactiveObjCBridge/*.{swift}"
 
   s.dependency 'ReactiveObjC', '~> 3.0.0'
-  s.dependency 'ReactiveSwift', '~> 1.1'
+  s.dependency 'ReactiveSwift', '2.0.0-rc.3'
 
   s.pod_target_xcconfig = { "OTHER_SWIFT_FLAGS[config=Release]" => "-suppress-warnings" }
 end
